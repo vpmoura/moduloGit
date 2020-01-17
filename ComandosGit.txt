@@ -1,0 +1,42 @@
+---------COMANDOS GIT-----------------------------
+--------------------------------------------------
+--------------------------------------------------
+------------------CONFIGURAÇÃOES------------------------------------------------------
+1. git config --global user.name "O seu nome" (config para definir nome do user do repositório)
+2. git config --global user.email "O seu e-mail" (config para definir o seu e-mail do git)
+3. git config --global core.editor "code --wait" (comando para definir o editor q vc usa, nesse caso VS code)
+4. git config user.name (mostra o nome do usuário)
+5. git config user.email (mostra o email)
+6. git config --list (lista as informações de config)
+-------------------------------------------------------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+-------------------------INICIANDO REPOSITÓRIO----------------------------------------------------
+1. git init (inicializa um repositório)
+2. git status (mostra o status do repositório)
+3. git add nome do arquivo (adiciona o arquivo ao repositório)
+4. git add -A (adiciona todos os arquivos possíveis ao repositório)
+5. git commit -m "nome do commit" (cria um commit)
+6. git branch (mostra as branchs)
+7. git reset --soft (volta um commit porém com modificações trackeadas)
+8. git reset --mixed (volta um commit e modificações não estão trackeadas)
+9. git reset --hard (volta um commit e apaga as últimas modificações)
+10. git branch nome branch (cria uma nova branch)
+11. git checkout nome branch (troca de branch)
+---------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+--------------------------------DIFERENÇA ENTRE ARQUIVOS-------------------------------------------------
+1. git diff (mostra o que foi modificado nos arquivos)
+2. git diff nome arquivo (mostra o que foi modificado em determinado arquivo)
+3. git diff --name-only (mostra somente o nome dos arquivos modificados)
+4. git checkout HEAD (ou nome do branch atual) -- nome arquivo (volta o arquivo/commit/branch para um estado anterior)
+--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------INICIANDO REPOSITÓRIO NO GITHUB---------------------------------------------------------
+1. New repository --> Create repository
+2. 
