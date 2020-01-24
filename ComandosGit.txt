@@ -39,4 +39,24 @@
 ------------------------------------------------------------
 -------------------------------INICIANDO REPOSITÓRIO NO GITHUB---------------------------------------------------------
 1. New repository --> Create repository
-2. 
+2. git remote add origin link do repositório do github (linkar o repositório remoto ao local)
+3. git remote (mostra os repositórios remotos adicionados)
+4. git remote -v (mostra os repositórios remotos com informações mais detalhadas)
+5. git push -u origin master (envia o branch master local para o repositório remoto)
+-----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+--------------------------------CRIAR SSH KEY-------------------------------------------------------------------------------------------
+(A chave SSH é necessária para validar a transferência de arquivos de uma determinada máquina para determinada conta do github)
+1. Abrir git bash
+2. Digitar comando - ssh-keygen -t rsa -b 4096 -C "seu email do github"
+3. Seguir apertando ENTER
+4. Ir para pasta usuários e abrir pasta ssh
+5. Abrir arquivo id_rsa.pub
+6. Copiar a key
+7. Ir no github
+8. Ir em settings
+9. Ir na opção SSH and GPG keys
+10. Clicar em new ssh key
+11. add ssh key
